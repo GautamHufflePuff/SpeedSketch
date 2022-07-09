@@ -1,0 +1,26 @@
+body {
+  background-color: #fbd139;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.694);
+}
+#show_sketch {
+  float: right;
+}
+canvas {
+  border: 5px solid white;
+  border-radius: 20px;
+  animation-name: Itachi;
+  animation-duration: 4s;
+  margin-top: 50px;
+  animation-iteration-count: infinite;
+}
+@keyframes Itachi{
+from{box-shadow: 1px 1px 38px gray}
+to{box-shadow: 1px 1px 38px rgb(255, 253, 253)}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
